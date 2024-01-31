@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 19px;
+    background: url('/static/images/img3.jpg') center/cover no-repeat; /* Adjust the path and filename as needed */
+}
+
+.container {
+    background: rgba(92, 90, 90, 0.9);
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+  
+.back-arrow {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  
+.back-arrow a {
+    text-decoration: none;
+    color: #fff; /* Adjust the color as needed */
+  }
+  
+.back-arrow span {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #00060a; /* Adjust the background color as needed */
+    cursor: pointer;
+    margin-left: -10px;
+  }
+  
+.back-arrow span:hover {
+    background-color: #323436; /* Adjust the background color on hover as needed */
+  }
+  
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+
+    }
+
+label {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black; 
+    font-size: 20px;
+    color:#333;
+}
+button {
+    background-color: #ec7703f7;
+    color: #fff;
+    border: none;
+    font-weight: 0;
+    font-size: 14px;
+    padding: 20px 30px;
+    border: 2px solid #ec7703f7;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    flex-direction: row;
+    align-items: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #e5eaeb;
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    color: rgb(75, 75, 75);
+    border: solid 2px #ec7703f7;
+}

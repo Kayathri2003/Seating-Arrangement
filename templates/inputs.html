@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="back-arrow">
+        <a href="{{ url_for('login') }}">
+            <span>&#9664; Back</span>
+        </a>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='input.css') }}">
+    <title>Seating Arrangement Input</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h2>Seating Arrangement Input</h2>
+        <form action="{{ url_for('generate_seating') }}" method="post">
+            <label for="classroom">Classroom:</label>
+            <input type="text" id="classroom" name="classroom" required>
+
+            <label for="department1">Department 1:</label>
+            <input type="text" id="department1" name="department1" required>
+
+            <label for="department2">Department 2:</label>
+            <input type="text" id="department2" name="department2" required>
+
+            <button type="submit">GENERATE</button>
+        </form>
+    </div>
+</body>
+</html>
