@@ -48,4 +48,5 @@ Web Development Framework : Flask Framework to input and view Seating
 Front-End Technologies : Local Web Browser to run application
 Implementation Algorithm : AI based Local Search Technique – Genetic Algorithm
 
+
   
