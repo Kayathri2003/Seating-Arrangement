@@ -28,15 +28,20 @@ DEPARTMENT TABLE
 
 # Tech Stack
 1.Programming Languages :
-	Python
+	
+ Python
  2.User Interface Development and Connectivity Framework :
-	HTML,CSS and Flask
+	
+ HTML,CSS and Flask
  3.Project Management : 
-	Jira 
+	
+ Jira 
 4. Version Control : 
-	Github
+	
+ Github
 5.Data Storage : 
-	Relational Database Management System Using MySqlite3
+	
+ Relational Database Management System Using MySqlite3
 
 # Software Requirements
 Database Management System : DBMS Sqlite3 to store data
